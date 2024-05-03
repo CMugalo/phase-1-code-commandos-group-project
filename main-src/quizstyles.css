@@ -8,9 +8,21 @@
 body {
   background: #4d0000;
 }
+#culture {
+  background: #004d09;
+}
+#food {
+  background: #00254d;
+}
+#geo {
+  background: #4d2300;
+}
+#music {
+  background: #004560;
+}
 
 .app {
-  background-image: url("./Assets/Kenyan\ Colours\ Background-04-03.png");
+  background-image: url("/Assets/Kenyan\ Colours\ Background-04-03.png");
   background-size: cover;
   /* background: #fff; */
   background-blend-mode: color-burn;
@@ -101,4 +113,42 @@ body {
 
 .incorrect {
   background: #ff9393;
+}
+#mainnav {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  align-items: center;
+  padding: 0 0 10px 0;
+  border-bottom: 0.5px solid #000;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+}
+
+.navmenu {
+  margin: 0px 0px;
+  align-items: center;
+  padding: 4px 10px;
+}
+.navmenu a {
+  text-decoration: none;
+}
+
+.navitems {
+  text-decoration: none;
+  color: #05299e;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 17.5px;
+  margin: 10px 20px;
+  padding: 25px;
+  transition-duration: 0.2s;
+}
+
+.navitems:hover {
+  background-color: #05299e;
+  color: #fff;
+  text-decoration: none;
 }

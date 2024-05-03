@@ -4,7 +4,7 @@ body {
 
 #mainnav {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   height: 50px;
   align-items: center;
   padding: 0 0 10px 0;
@@ -29,7 +29,7 @@ body {
   color: #05299e;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 17.5px;
-  margin: 10px 0px;
+  margin: 10px 20px;
   padding: 25px;
   transition-duration: 0.2s;
 }
@@ -184,7 +184,7 @@ p {
     font-weight: 500;
 }
 .featuredbtn:hover {
-    background-color: #bc0909;
+    background-color: #004d15;
     cursor: pointer;
 }
 
