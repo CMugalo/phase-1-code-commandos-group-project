@@ -22,7 +22,7 @@ body {
 }
 
 .app {
-  background-image: url("/Assets/Kenyan\ Colours\ Background-04-03.png");
+  background-image: url("./Assets/Kenyan\ Colours\ Background-04-03.png");
   background-size: cover;
   /* background: #fff; */
   background-blend-mode: color-burn;

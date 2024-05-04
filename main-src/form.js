@@ -48,5 +48,5 @@ document.getElementById("signInForm").addEventListener("submit", function (event
 
 
 //redirect to another page
-window.location.href = "categories.html"; 
+window.location.href = "../categories.html"; 
 });
